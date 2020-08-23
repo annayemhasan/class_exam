@@ -5,8 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Single-page-website!</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
 </head>
 
 <body>
@@ -31,16 +32,16 @@
                         <div class="collapse navbar-collapse" id="navbarNav">
                             <ul class="navbar-nav">
                                 <li class="nav-item active">
-                                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                                    <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Product</a>
+                                    <a class="nav-link" href="#product">Product</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">About Us</a>
+                                    <a class="nav-link" href="#about">About Us</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Contact Us</a>
+                                    <a class="nav-link" href="#contact">Contact Us</a>
                                 </li>
                             </ul>
                         </div>
@@ -55,7 +56,7 @@
 
         <!-- carousel start -->
 
-        <div class="container content">
+        <div class="container content" id="home">
             <div class="row">
 
                 <div class="Slider">
@@ -115,12 +116,12 @@
 
         <!-- phone cetagories start -->
 
-        <div class="container content">
+        <div class="container content" id="product">
             <div class="row">
                 <div class="Cards">
 
                     <div class="cardTitle">
-                        <h1>Smartphone <small style="float: right;">see all</small></h1>
+                        <h1>Smartphone <small style="float: right;color:orange;">see all</small></h1>
                     </div>
                     <div class="card-deck">
                         <div class="card">
@@ -172,7 +173,7 @@
                 <div class="Cards">
 
                     <div class="cardTitle">
-                        <h1>Smartphone <small style="float: right;">see all</small></h1>
+                        <h1>Laptop <small style="float: right;color:orange;">see all</small></h1>
                     </div>
                     <div class="card-deck">
                         <div class="card">
@@ -225,43 +226,55 @@
                     <h1>categories <span></span></h1>
                 </div>
                 <div class="col-md-6">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-6 ft_i">
+                    <div class="row d-flex align-items-center">
+                        <div class="col-md-5 mr-3 mb-3 d-flex justify-content-center align-items-center categories">
+                            <div class="box_sh">
                                 <img src="img/bag.png" alt="">
-                                <p>Bag</p>
+                                <p class="d-flex justify-content-center">Bag</p>
                             </div>
-                            <div class="col-md-6">
-                                <div class="footer_sub_1">
-                                    <img src="img/perfume.png" alt="">
-                                    <p>Perfume</p>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="row mb-4">
+                                <div class="col-md-10 categories d-flex justify-content-center align-items-center">
+                                    <div class="box_sh">
+                                        <img src="img/perfume.png" alt="">
+                                        <p class="d-flex justify-content-center ">Perfume</p>
+                                    </div>
                                 </div>
-                                <div class="footer_sub_2">
-                                    <img src="img/shoe.png" alt="">
-                                    <p>Shoe</p>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-10 categories d-flex justify-content-center align-items-center ">
+                                    <div class="box_sh">
+                                        <img src="img/shoe.png" alt=" ">
+                                        <p class="d-flex justify-content-center ">Shoes</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <div class="footer_img_3">
-                        <img src="img/pale-order.png" alt="">
-                    </div>
+                <div class="col-md-6 box_sh ">
+                    <img class="w-100 " src="img/pale-order.png" alt=" ">
                 </div>
             </div>
+        </div>
         </div>
 
         <!-- cetagories end -->
 
-    </section>
+        <!-- footer start -->
+
+        <footer class="footer">
+            <p>© Copy right 2020, all right are reserved.</p>
+        </footer>
+
+        <!-- footer end -->
 
 
 
-
-    <script src=" js/jquery-3.4.0.min.js "></script>
-    <script src="js/bootstrap.min.js "></script>
-    <script src="js/popper.min.js "></script>
+        <script src=" js/jquery-3.4.0.min.js "></script>
+        <script src="js/bootstrap.min.js "></script>
+        <script src="js/popper.min.js "></script>
 </body>
 
 </html>
