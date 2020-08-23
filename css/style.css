@@ -12,7 +12,7 @@
     }
     /* menu design start */
     
-    . navbar {
+    .navbar {
         width: 100%;
     }
     
@@ -52,14 +52,10 @@
         float: right;
     }
     
-    .carousel-item {}
-    
     .carousel_caption h5 {
         font-size: 40px;
         margin: 20px 0;
     }
-    
-    .carousel_caption nutton {}
     /* slider end */
     /* phone cetagories start */
     
@@ -102,35 +98,19 @@
         font-size: 22px;
     }
     
-    .footer_img_3 {
-        box-shadow: 2px 0px 4px 6px #e3d8d8;
+    .box_sh {
+        box-shadow: 2px 0px 4px 6px #e3d8d8!important;
+        padding: 20px!important;
+        font-size: 20px!important;
+        font-weight: 600!important;
     }
     
-    .ft_i img {
-        width: 100%;
-    }
-    
-    .footer_img_3 img {
-        width: 100%;
-    }
-    
-    .footer_sub_1,
-    .footer_sub_2 {
-        box-shadow: 2px 0px 4px 6px #e3d8d8;
+    .footer p {
         text-align: center;
-        padding: 10px;
-        font-size: 20px;
         font-weight: 700;
-    }
-    
-    .ft_i {
-        box-shadow: 2px 0px 4px 6px #e3d8d8;
-        padding: 60px;
-    }
-    
-    .ft_i p {
-        margin: 10px;
-        text-align: center;
         font-size: 20px;
-        font-weight: 700;
+        margin: 50px 0;
+        background-color: #333;
+        color: rgb(194, 187, 187);
+        padding: 20px;
     }
